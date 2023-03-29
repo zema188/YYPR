@@ -1,0 +1,193 @@
+.container {
+}
+.preview {
+    padding-top: 24px;
+    &__desc {
+        padding-bottom: 23px;
+        @media (max-width: 767px) {
+            padding-bottom: 18px;
+        }
+        & h1 {
+            margin-bottom: 64px;
+            @media (max-width: 1023px) {
+                margin-bottom: 40px;
+            }
+            @media (max-width: 767px) {
+                margin-bottom: 25px;
+            }
+            @media (max-width: 539px) {
+
+            }
+        }
+    }
+    &__desc-subject {
+        display: none;
+        background: #F3F6FA;
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 24px;
+        margin-bottom: 29px;
+        @media (max-width: 539px) {
+            display: block;
+        }
+    }
+    &__lead {
+        padding-top: 40px;
+        padding-bottom: 25px;
+        @media (max-width: 1023px) {
+            padding-top: 30px;
+            padding-bottom: 18px;
+        }
+        & h2 {
+            margin-bottom: 40px;
+            @media (max-width: 1023px) {
+                margin-bottom: 20px;
+            }
+            @media (max-width: 767px) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+    &__lead-tagline {
+        margin-top: 40px;
+        & span {
+            display: inline-block;
+        }
+        & a {
+            color: #10BD99;
+        }
+    }
+}
+
+.form {
+    background: #F3F6FA;
+    border-radius: 8px;
+    padding: 40px;
+    @media (max-width: 767px) {
+        padding: 21px;
+    }
+    &_pic {
+        & .form__content {
+            display: flex;
+            gap: 24px;
+            @media (max-width: 767px) {
+                flex-wrap: wrap;
+            }
+        }
+        & .form__content-text {
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+            }
+        }
+        & .form__item-subtitle {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        & .form__item-field {
+            padding: 15px 12px;
+            font-size: 14px;
+            line-height: 18px;
+            &::placeholder {
+                font-size: 14px;
+                line-height: 18px;
+                color: #A1A6B3;
+            }
+        }
+        & .form__item-area {
+            height: 75px;
+            padding: 10px 12px;
+        }
+    }
+		&__title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 32px;
+            margin-bottom: 25px;
+            @media (max-width: 539px) {
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 16px;
+            }
+            &_blue {
+                color: #0E4ACD;
+                font-size: 18px;
+                line-height: 24px;
+            }
+		}
+
+		&__content {
+		}
+
+		&__contnet-list {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 25px;
+            @media (max-width: 539px) {
+                row-gap: 16px;
+            }
+		}
+
+		&__item {
+            flex: 0 0 calc(50% - 10px);
+            @media (max-width: 539px) {
+                flex: 0 0 100%;
+            }
+			&_m {
+                flex: 0 0 100%;
+			}
+		}
+
+		&__item-subtitle {
+            font-size: 16px;
+            line-height: 22px;
+            margin-bottom: 8px;
+		}
+
+		&__item-field {
+            font-size: 16px;
+            line-height: 22px;
+            background: #FFFFFF;
+            border: 1px solid #D0D3D9;
+            border-radius: 8px;
+            width: 100%;
+            padding: 12px;
+            resize: none;
+            &::placeholder {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color: #A1A6B3;
+            }
+		}
+        &__item-area {
+            height: 84px;
+        }
+		&__btn {
+            margin-left: auto;
+            margin-right: 0px;
+            margin-top: 22px;
+            @media (max-width: 539px) {
+                margin-top: 15px;
+            }
+        }
+
+		&__content-pic {
+            flex: 0 0 38.6%;
+            @media (max-width: 767px) {
+                margin: 0 auto;
+                flex: 0 0 100%;
+                max-width: 400px;
+            }
+            & picture {
+                width: 100%;
+                & img {
+                    width: 100%;
+                }
+            }
+		}
+        
+
+}
